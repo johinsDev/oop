@@ -1,0 +1,21 @@
+{
+    "name": "happydev/oop",
+    "description": "Proyecto demo para el curso de programacion orientada a objetos",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johan Armando",
+            "email": "johinsde@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+        "files" : [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Game\\" : "src/"
+        }
+    }
+}
